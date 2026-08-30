@@ -1,0 +1,121 @@
+{
+  "_fv": 89,
+  "_type": "curiosbauble",
+  "definition": {
+    "item": "Odetoshark",
+    "slotType": "OdetoSatelliteandSharkcurios",
+    "slotAmount": 1,
+    "addSlot": true,
+    "enderMask": true,
+    "friendlyPigs": true,
+    "snowWalk": true,
+    "equipSound": "block.cave_vines.step",
+    "hasModel": true,
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "helmetModelPart": "Empty",
+    "bodyModelPart": "Empty",
+    "armsModelPartL": "Empty",
+    "armsModelPartR": "Empty",
+    "leggingsModelPartL": "Empty",
+    "leggingsModelPartR": "Empty",
+    "disabledToggles": [],
+    "nbtEntries": [
+      {
+        "key": "shark_level",
+        "type": "number",
+        "value": "1"
+      },
+      {
+        "key": "shark_max_health",
+        "type": "number",
+        "value": "0.02"
+      },
+      {
+        "key": "shark_attack_damage",
+        "type": "number",
+        "value": "0.015"
+      },
+      {
+        "key": "shark_movement_speed",
+        "type": "number",
+        "value": "0.015"
+      },
+      {
+        "key": "shark_mining_efficiency",
+        "type": "number",
+        "value": "0.02"
+      },
+      {
+        "key": "shark_luck",
+        "type": "number",
+        "value": "0.01"
+      },
+      {
+        "key": "shark_armor",
+        "type": "number",
+        "value": "0.01"
+      },
+      {
+        "key": "shark_sttack_speed",
+        "type": "number",
+        "value": "0.01"
+      },
+      {
+        "key": "shark_add",
+        "type": "number",
+        "value": "0"
+      }
+    ],
+    "modifierEntries": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.02",
+        "nbtKey": "shark_max_health"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.015",
+        "nbtKey": "shark_attack_damage"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.015",
+        "nbtKey": "shark_movement_speed"
+      },
+      {
+        "attribute": "minecraft:player.mining_efficiency",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.02",
+        "nbtKey": "shark_mining_efficiency"
+      },
+      {
+        "attribute": "minecraft:generic.luck",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.01",
+        "nbtKey": "shark_luck"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.01",
+        "nbtKey": "shark_armor"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "value": "0.01",
+        "nbtKey": "shark_sttack_speed"
+      },
+      {
+        "attribute": "ode_to_satellite_and_shark:sharkcurioslevel",
+        "operation": "ADD_VALUE",
+        "value": "1",
+        "nbtKey": "shark_level"
+      }
+    ]
+  }
+}

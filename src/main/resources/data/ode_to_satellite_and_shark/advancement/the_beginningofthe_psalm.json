@@ -1,0 +1,30 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "ode_to_satellite_and_shark:caisharkfin"
+    },
+    "title": {
+      "translate": "advancements.the_beginningofthe_psalm.title"
+    },
+    "description": {
+      "translate": "advancements.the_beginningofthe_psalm.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beginningofthe_psalm_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "ode_to_satellite_and_shark:sharkcuriospeifan",
+      "ode_to_satellite_and_shark:odetosharkpeifan"
+    ]
+  }
+}

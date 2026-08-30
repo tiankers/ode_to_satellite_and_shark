@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ode_to_satellite_and_shark:caisharkfin"
+    },
+    "b": {
+      "item": "minecraft:conduit"
+    }
+  },
+  "result": {
+    "id": "ode_to_satellite_and_shark:sharkitem",
+    "count": 1
+  }
+}

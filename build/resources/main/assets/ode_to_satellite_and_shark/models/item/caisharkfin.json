@@ -1,0 +1,30 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "ode_to_satellite_and_shark:item/cai_shark_fin"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/cai_shark_fin"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/cai_shark_fin"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/cai_shark_fin"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "ode_to_satellite_and_shark:item/ode_to_shark"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/ode_to_shark"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/ode_to_shark"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "ode_to_satellite_and_shark:item/ode_to_shark"
+      }
+    }
+  }
+}

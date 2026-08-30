@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "satellite_gem_curios.png",
+    "name": "Satellite Gem",
+    "amount": 1,
+    "modelToggling": false,
+    "changeOrder": false,
+    "slotOrder": 0
+  }
+}

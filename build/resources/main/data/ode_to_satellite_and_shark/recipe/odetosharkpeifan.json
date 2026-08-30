@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ode_to_satellite_and_shark:sharkitem"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "id": "ode_to_satellite_and_shark:odetoshark",
+    "count": 1
+  }
+}

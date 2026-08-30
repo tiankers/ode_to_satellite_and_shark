@@ -1,0 +1,10 @@
+/kill
+/kill @e
+/
+/kill
+/xp add Dev 999999999
+/xp set Dev 100
+/xp add Dev 1000
+/xp set Dev 100
+/xp set Dev 10
+/xp add Dev 1000

@@ -1,0 +1,51 @@
+{
+  "_fv": 89,
+  "_type": "curiosbauble",
+  "definition": {
+    "item": "Scarletgem",
+    "slotType": "SatelliteGem",
+    "slotAmount": 1,
+    "addSlot": false,
+    "enderMask": false,
+    "friendlyPigs": false,
+    "snowWalk": false,
+    "equipSound": "",
+    "hasModel": false,
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "curioTick": "Scarletfireaaa",
+    "helmetModelPart": "Empty",
+    "bodyModelPart": "Empty",
+    "armsModelPartL": "Empty",
+    "armsModelPartR": "Empty",
+    "leggingsModelPartL": "Empty",
+    "leggingsModelPartR": "Empty",
+    "disabledToggles": [],
+    "nbtEntries": [
+      {
+        "key": "s_ad",
+        "type": "number",
+        "value": "0"
+      },
+      {
+        "key": "s_sf",
+        "type": "number",
+        "value": "0"
+      }
+    ],
+    "modifierEntries": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "value": "20",
+        "nbtKey": "s_ad"
+      },
+      {
+        "attribute": "ode_to_satellite_and_shark:scarletfire",
+        "operation": "ADD_VALUE",
+        "value": "20",
+        "nbtKey": "s_sf"
+      }
+    ]
+  }
+}

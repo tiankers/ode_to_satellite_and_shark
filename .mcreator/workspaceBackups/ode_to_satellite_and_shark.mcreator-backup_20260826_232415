@@ -1,0 +1,444 @@
+{
+  "mod_elements": [
+    {
+      "name": "Shark",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shark",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "Sharkitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharkitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/sharkitem.json",
+          "src/main/java/net/mcreator/odetosatelliteandshark/item/SharkitemItem.java"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "OdetoSatelliteandSharkcurios",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odeto_satelliteand_sharkcurios",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/curios/entities/odeto_satelliteand_sharkcurios.json",
+          "src/main/resources/data/curios/tags/item/odeto_satelliteand_sharkcurios.json",
+          "src/main/resources/data/ode_to_satellite_and_shark/curios/slots/odeto_satelliteand_sharkcurios.json"
+        ]
+      }
+    },
+    {
+      "name": "Otsas",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otsas",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Caishark",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caishark",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/entity/CaisharkEntity.java",
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/caishark_spawn_egg.json",
+          "src/main/java/net/mcreator/odetosatelliteandshark/client/renderer/CaisharkRenderer.java",
+          "src/main/resources/data/ode_to_satellite_and_shark/neoforge/biome_modifier/caishark_biome_modifier.json"
+        ]
+      },
+      "path": "~/shark/organism"
+    },
+    {
+      "name": "Caisharkfin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caisharkfin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/item/CaisharkfinItem.java",
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/caisharkfin.json"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "Sharkcuriospeifan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharkcuriospeifan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/recipes/sharkcuriospeifan.json",
+          "src/main/resources/data/ode_to_satellite_and_shark/recipe/sharkcuriospeifan.json"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "Odetoshark",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odetoshark",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/odetoshark.json",
+          "src/main/java/net/mcreator/odetosatelliteandshark/item/OdetosharkItem.java"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "Odetosharkpeifan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odetosharkpeifan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/recipe/odetosharkpeifan.json",
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/recipes/odetosharkpeifan.json"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "Sharkchapter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharkchapter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/sharkchapter.json"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "TheBeginningofthePsalm",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_beginningofthe_psalm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/the_beginningofthe_psalm.json"
+        ]
+      }
+    },
+    {
+      "name": "SHARKCURIOSLEVEL",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sharkcurioslevel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "OdetosharkWuPinZaiShouShangShiMeiKeFaSheng",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odetoshark_wu_pin_zai_shou_shang_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/procedures/OdetosharkWuPinZaiShouShangShiMeiKeFaShengProcedure.java"
+        ]
+      },
+      "path": "~/shark"
+    },
+    {
+      "name": "ShardoftheScarletSatellite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shardofthe_scarlet_satellite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/item/ShardoftheScarletSatelliteItem.java",
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/shardofthe_scarlet_satellite.json"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletgem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/item/ScarletgemItem.java",
+          "src/main/resources/assets/ode_to_satellite_and_shark/models/item/scarletgem.json"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletgempeifan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgempeifan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/recipes/scarletgempeifan.json",
+          "src/main/resources/data/ode_to_satellite_and_shark/recipe/scarletgempeifan.json"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "ScarletgemShengWuBeiCiWuPinJiZhong",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgem_sheng_wu_bei_ci_wu_pin_ji_zhong",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/procedures/ScarletgemShengWuBeiCiWuPinJiZhongProcedure.java"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletgemcurios",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgemcurios",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletgemdamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgemdamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/damage_type/scarletgemdamage.json"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletfire",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletfire",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletfireaaa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletfireaaa",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/odetosatelliteandshark/procedures/ScarletfireaaaProcedure.java"
+        ]
+      },
+      "path": "~/Satellite"
+    },
+    {
+      "name": "Scarletgempeifana",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scarletgempeifana",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ode_to_satellite_and_shark/advancement/recipes/scarletgempeifana.json",
+          "src/main/resources/data/ode_to_satellite_and_shark/recipe/scarletgempeifana.json"
+        ]
+      },
+      "path": "~/Satellite"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~Caisharkfin@CUSTOM:Caisharkfin"
+    ],
+    "ENTITIES:minecraft:aquatic": [
+      "~Caishark@CUSTOM:Caishark"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ode_to_satellite_and_shark.sharkitem": "Sharkitem",
+      "curios.identifier.odeto_satelliteand_sharkcurios": "Odeto Satelliteand Sharkcurios",
+      "item_group.ode_to_satellite_and_shark.otsas": "Otsas",
+      "item.ode_to_satellite_and_shark.sharkitem.description_0": "You’re as bad as a shark.",
+      "entity.ode_to_satellite_and_shark.caishark": "Caishark",
+      "item.ode_to_satellite_and_shark.caishark_spawn_egg": "Caishark Spawn Egg",
+      "item.ode_to_satellite_and_shark.caisharkfin.description_0": "cai shark\u0027s fins might have unexpected effects.",
+      "item.ode_to_satellite_and_shark.caisharkfin": "Caisharkfin",
+      "item.ode_to_satellite_and_shark.odetoshark": "Odetoshark",
+      "advancements.sharkchapter.descr": "Shark chapter for Ode to Satellite and Shark curios",
+      "advancements.sharkchapter.title": "Shark chapter",
+      "advancements.the_beginningofthe_psalm.title": "The Beginningofthe Psalm",
+      "advancements.the_beginningofthe_psalm.descr": "The Beginning of the Psalm",
+      "attribute.ode_to_satellite_and_shark.sharkcurioslevel": "SHARKCURIOSLEVEL",
+      "item.ode_to_satellite_and_shark.odetoshark.description_0": "Please feed it full.",
+      "item.ode_to_satellite_and_shark.shardofthe_scarlet_satellite": "Shardofthe Scarlet Satellite",
+      "item.ode_to_satellite_and_shark.shardofthe_scarlet_satellite.description_0": "\u00264The residue left behind after the scarlet satellite shattered",
+      "item.ode_to_satellite_and_shark.scarletgem": "Scarletgem",
+      "death.attack.scarletgemdamage.player": "%1$s died whilst trying to escape %2$s",
+      "death.attack.scarletgemdamage.item": "%1$s was killed by %2$s using %3$s",
+      "death.attack.scarletgemdamage": "Scarlet ignited everything of the %1$s",
+      "attribute.ode_to_satellite_and_shark.scarletfire": "Scarletfire",
+      "item.ode_to_satellite_and_shark.scarletgem.description_0": "\u00264Together burn out bar"
+    },
+    "zh_cn": {
+      "item.ode_to_satellite_and_shark.sharkitem": "鲨鱼",
+      "curios.identifier.odeto_satelliteand_sharkcurios": "卫鲨之诗",
+      "item_group.ode_to_satellite_and_shark.otsas": "卫鲨之诗",
+      "item.ode_to_satellite_and_shark.sharkitem.description_0": "你菜的像只鲨鱼",
+      "entity.ode_to_satellite_and_shark.caishark": "菜鲨",
+      "item.ode_to_satellite_and_shark.caishark_spawn_egg": "菜鲨蛋",
+      "item.ode_to_satellite_and_shark.caisharkfin.description_0": "菜鲨的鱼鳍，或许会有想不到的作用",
+      "item.ode_to_satellite_and_shark.caisharkfin": "菜鲨鳍",
+      "item.ode_to_satellite_and_shark.odetoshark": "鲨之章",
+      "advancements.sharkchapter.descr": "Shark chapter for Ode to Satellite and Shark curios",
+      "advancements.sharkchapter.title": "Shark chapter",
+      "advancements.the_beginningofthe_psalm.title": "The Beginningofthe Psalm",
+      "advancements.the_beginningofthe_psalm.descr": "The Beginning of the Psalm",
+      "attribute.ode_to_satellite_and_shark.sharkcurioslevel": "等级",
+      "item.ode_to_satellite_and_shark.odetoshark.description_0": "请喂饱它",
+      "item.ode_to_satellite_and_shark.shardofthe_scarlet_satellite": "猩红卫星碎片",
+      "item.ode_to_satellite_and_shark.shardofthe_scarlet_satellite.description_0": "\u00264猩红卫星破碎后留下的残渣",
+      "item.ode_to_satellite_and_shark.scarletgem": "猩红宝石",
+      "death.attack.scarletgemdamage.player": "%1$s 试图逃离 %2$s",
+      "death.attack.scarletgemdamage.item": "%1$s 被 %2$s 使用 %3$s 杀死",
+      "death.attack.scarletgemdamage": "猩红点燃了 %1$s 的一切",
+      "attribute.ode_to_satellite_and_shark.scarletfire": "猩红之火",
+      "item.ode_to_satellite_and_shark.scarletgem.description_0": "\u00264一同燃尽吧"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModAttributes.java",
+      "src/main/resources/data/ode_to_satellite_and_shark/curios/entities/slots.json",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModCuriosCompat.java",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModItems.java",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModEntities.java",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModEntityRenderers.java",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/odetosatelliteandshark/OdeToSatelliteAndSharkMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/odetosatelliteandshark/init/OdeToSatelliteAndSharkModModels.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "shark",
+        "children": [
+          {
+            "name": "organism",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Satellite",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ode_to_satellite_and_shark",
+    "modName": "Ode to Satellite and Shark",
+    "version": "1.0.1",
+    "description": "Ode to Satellite and Shark",
+    "author": "Tianker",
+    "websiteURL": "https://github.com/tiankers/Ode-to-Satellite-and-Shark",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "ode_to_satellite_and_shark",
+    "requiredMods": [
+      "curios"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.odetosatelliteandshark"
+  },
+  "mcreatorVersion": 202600233518
+}

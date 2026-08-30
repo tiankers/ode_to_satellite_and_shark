@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "ode_to_satellite_and_shark.png",
+    "name": "Odeto Satelliteand Sharkcurios",
+    "amount": 1,
+    "modelToggling": false,
+    "changeOrder": false,
+    "slotOrder": 0
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_fv": 89,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Caishark",
+    "mobLabel": "",
+    "mobModelName": "Modelcai_shark",
+    "mobModelTexture": "cai_shark.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [],
+    "animations": [
+      {
+        "animation": "CUSTOM:cai_sharkAnimation.swimone",
+        "speed": 1.0,
+        "walking": true,
+        "amplitude": 1.0
+      },
+      {
+        "animation": "CUSTOM:cai_sharkAnimation.swimtwo",
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.30000000000000004,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -16764058,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16737793,
+      "falpha": 0.0
+    },
+    "spawnEggTexture": "",
+    "creativeTabs": [
+      "CUSTOM:Otsas"
+    ],
+    "isBoss": false,
+    "bossBarColor": "BLUE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "WATER",
+    "attackStrength": 6,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 6.0,
+    "movementSpeed": 2.0,
+    "stepHeight": 0.2,
+    "armorBaseValue": 6.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 6,
+    "xpAmount": 10,
+    "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": "CUSTOM:Caisharkfin",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
+    "entityDataEntries": [],
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"swim\"><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"attack_with_range\"><field name=\"speed\">2</field><field name=\"range\">1</field><field name=\"longmemory\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">2</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityCod</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntitySalmon</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityPufferfish</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityTropicalFish</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntitySquid</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityGlowSquid</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityDrowned</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"entity\">EntityDolphin</field><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      "CUSTOM:Sharkitem",
+      "Items.FISH#0",
+      "Items.FISH#1",
+      "Items.FISH#2",
+      "Items.FISH#3",
+      "Items.COOKED_FISH#0",
+      "Items.COOKED_FISH#1"
+    ],
+    "ranged": false,
+    "rangedAttackItem": "",
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "waterCreature",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 7,
+    "restrictionBiomes": [
+      "cold_ocean",
+      "deep_cold_ocean",
+      "deep_frozen_ocean",
+      "deep_lukewarm_ocean",
+      "deep_ocean",
+      "frozen_ocean",
+      "lukewarm_ocean",
+      "ocean",
+      "warm_ocean"
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": true,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 8.0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_powder"
+    },
+    "b": {
+      "item": "ode_to_satellite_and_shark:scarletgem"
+    }
+  },
+  "result": {
+    "id": "ode_to_satellite_and_shark:scarletgem",
+    "count": 1
+  }
+}

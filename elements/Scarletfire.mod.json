@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "attribute",
+  "definition": {
+    "name": "Scarletfire",
+    "minValue": 0.0,
+    "maxValue": 20.0,
+    "defaultValue": 0.0,
+    "sentiment": "NEGATIVE",
+    "addToAllEntities": true,
+    "addToPlayers": true,
+    "entities": []
+  }
+}
